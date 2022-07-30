@@ -7,9 +7,9 @@
 
 .header{
      background-color: rgb(205, 78, 78);
-
+     position: sticky;
      padding: 20px;
-
+     top: 0;
 }
 ul {
     display: flex;
