@@ -7,7 +7,7 @@
 
 .header{
      background-color: rgb(205, 78, 78);
-     
+
      padding: 20px;
 
 }
@@ -44,7 +44,7 @@ a:hover{
 }
 
 #welcome-section{
-     background-image: linear-gradient(black,purple,black);
+     background-image: radial-gradient(purple,black);
 
     height: 90vh;
 
@@ -188,4 +188,13 @@ article p {
 .connect {
     height: 82%;
     border-bottom: 2px solid red;
+}
+footer p{
+    color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 130px;
 }
