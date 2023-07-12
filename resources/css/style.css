@@ -189,12 +189,17 @@ article p {
     height: 82%;
     border-bottom: 2px solid red;
 }
-footer p{
-    color: white;
-    font-size: 1.2rem;
-    display: inline-block;
-    gap: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 130px;
+#about{
+    background-color: white;
+    margin: 100px;
+    padding: 50px;
+    text-align: center;
+}
+#about p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+#skills a{
+    margin: 200px;
+    size: 100px;
 }

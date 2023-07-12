@@ -6,70 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Personal-portfolio</title>
-    <link rel="stylesheet" href="/resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
     <header class="header">
         <nav id="navbar">
             <ul>
-                <li><a class="nav-link" href="#Aout">About</a></li>
-                <li><a class="nav-link" href="#Work">Work</a></li>
-                <li><a class="nav-link" href="#Contact">Contact</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#Third-section">Contact</a></li>
+                <li><a class="nav-link" href="#skils">Skills</a></li>
             </ul>
 
         </nav>
     </header>
     <section id="welcome-section">
         <h1>Hey I'm Stan</h1>
-        <p>a web developer</p>
+        <p>A Software Developer</p>
 
     </section>
     <section id="second-section">
-
+         <div id="about">
+           <p>
+            As a software developer and a computer science major, I have programming concepts and hands-on experience with one or more programming languages. Some programming languages I use in software development include Python, Html, CSS, C++, and JavaScript.
+           </p>
+           <p>
+            In addition to my technical skills, I have strong problem-solving skills, attention to detail, and the ability to work well in a team. I also communicate effectively with both technical and non-technical stakeholders
+           </p>
+         </div>
         <h2>These are some of my projects</h2>
         <hr>
         <div id="projects">
             <figure class="project">
-                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">
-                    <img src="resources\media\tribute-page-main-image.jpg" alt="Tribute Page" width="380" height="230">
-                    <figcaption class="content1">Tribute Page</figcaption>
+                <a href="https://stan-breaks.github.io/color-flipperr/">
+                    <img src="resources\media\color.png" alt="Color Flipper Page" width="380" height="230">
+                    <figcaption class="content1">Color Flipper Page</figcaption>
                 </a>
             </figure>
             <figure class="project">
-                <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ">
-                    <img src="resources\media\random-quote.png" alt="random quote machine" width="380" height="230">
-                    <figcaption class="content1">Random Quote Machine</figcaption>
+                <a href="https://stan-breaks.github.io/To-do/">
+                    <img src="resources\media\to-do.png" alt="To-do List Page" width="380" height="230">
+                    <figcaption class="content1">To-do List Page</figcaption>
                 </a>
             </figure>
             <figure class="project">
-                <a href="https://codepen.io/freeCodeCamp/full/wgGVVX">
+                <a href="https://stan-breaks.github.io/calc/">
                     <img src="resources\media\calculator.png" alt="javasript calculator" width="380" height="230">
                     <figcaption class="content1">Javasript Calculator</figcaption>
                 </a>
             </figure>
             <figure class="project">
-                <a href="https://codepen.io/freeCodeCamp/full/mVEJag">
-                    <img src="resources\media\map-africa.png" alt="map data" width="380" height="230">
-                    <figcaption class="content1">Map Data Across the Globe</figcaption>
+                <a href="https://stan-breaks.github.io/counter/">
+                    <img src="resources\media\counter.png" alt="Javasript Counter" width="380" height="230">
+                    <figcaption class="content1">Javasript Counter</figcaption>
                 </a>
             </figure>
             <figure class="project">
-                <a href="https://codepen.io/freeCodeCamp/full/wGqEga">
-                    <img src="resources\media\wiki-search.png" alt="wikipedia viewer" width="380" height="230">
-                    <figcaption class="content1">Wikipedia Viewer</figcaption>
+                <a href="https://stan-breaks.github.io/search/">
+                    <img src="resources\media\search.png" alt="Google Search Replica" width="380" height="230">
+                    <figcaption class="content1">Google Search Replica</figcaption>
                 </a>
             </figure>
             <figure class="project">
-                <a href="https://codepen.io/freeCodeCamp/full/KzXQgy">
-                    <img src="resources\media\x and o.png" alt="tic tac toe game" width="380" height="230">
-                    <figcaption class="content1">Tic Tac Toc Game</figcaption>
+                <a href="https://stan-breaks.github.io/Rock-paper-and-scissor-game/">
+                    <img src="resources\media\rock.png" alt="Rock,Paper,Scissor game" width="380" height="230">
+                    <figcaption class="content1">Rock,Paper,Scissor game</figcaption>
                 </a>
             </figure>
         </div>
         <div id="btn-holder">
-            <button id="btn">Show all ></button>
+            <a href="#welcome-section">
+               <button id="btn">Download My Resume</button>
+            </a>
         </div>
     </section>
     <section id="third-section">
@@ -78,23 +89,21 @@
                 <h2>Let's work together...</h2>
                 <p>How do you take your coffee?</p>
             </article>
-            <div>
-                <a href=""><i class="fa-brands fa-facebook">  Facebook</i></a>
-                <a href=""><i class="fa-brands fa-github">  Github</i></a>
-                <a href=""><i class="fa-brands fa-twitter">  Twitter</i></a>
-                <a href=""><i class="fa-solid fa-at">  Send a mail</i></a>
-                <a href=""><i class="fa-solid fa-mobile-screen">  Call me</i></a>
+            <div id="Contact">
+                <a href="https://www.linkedin.com/in/stanley-mwendwa-5a594b233/"><i  class="fa-brands fa-linkedin">  Linkedin</i></a>
+                <a href="https://github.com/Stan-breaks"><i class="fa-brands fa-github">  Github</i></a>
+                <a href="mailto:stanleymwendwa03@gmail.com"><i class="fa-solid fa-at">  Send a mail</i></a>
+                <a href="tel:+254716338000"><i class="fa-solid fa-mobile-screen">  Call me</i></a>
+            </div>
+            <div id="skills">
+                <a href="#"><i class="fa-brands fa-git-alt fa-2xl"></i></a> 
+                <a href="#"><i class="fa-brands fa-github fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-html5 fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-css3-alt fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-python fa-2xl"></i></a> 
+                <a href="#"><i class="fa-brands fa-square-js fa-2xl"></i></a> 
             </div>
         </div>
-        <footer>
-            
-                <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
-            
-            
-                <p><i class="fa-regular fa-copyright"></i>Created for freeCodeCamp<i class="fa-brands fa-free-code-camp"></i></p>
-            
-        </footer>
     </section>
 </body>
-
 </html>
